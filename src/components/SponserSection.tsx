@@ -13,8 +13,8 @@ const SponserSection = () => {
 					</div>
 				</div>
 			</div>
-			<div className={"flex space-x-8 md:space-x-16 overflow-hidden group"}>
-				<div className={"flex space-x-8 md:space-x-16 animate-loop-scroll group-hover:paused"}>
+			<div className={"flex space-x-8 md:space-x-16 overflow-hidden"}>
+				<div className={"flex space-x-8 md:space-x-16 animate-loop-scroll"}>
 					<Image
 						width={150}
 						height={150}
@@ -79,7 +79,78 @@ const SponserSection = () => {
 						alt={"firmenich Icon"}
 						className={"max-w-none"}
 					/>
+				</div>
 
+				<div className={"bg-white flex space-x-8 md:space-x-16 animate-loop-scroll group-hover:paused"} aria-hidden="true">
+					<Image
+						width={150}
+						height={150}
+						src={"/sponsers/australian_national_university.svg"}
+						alt={"australian_national_university Icon"}
+						className={"max-w-none"}
+					/>
+
+					<Image
+						width={150}
+						height={150}
+						src={"/sponsers/aws.svg"}
+						alt={"AWS Icon"}
+						className={"max-w-none"}
+					/>
+					
+					<Image
+						width={150}
+						height={150}
+						src={"/sponsers/bayer.svg"}
+						alt={"bayer Icon"}
+						className={"max-w-none"}
+					/>
+
+					<Image
+						width={150}
+						height={150}
+						src={"/sponsers/broad_inst.svg"}
+						alt={"broad_inst Icon"}
+						className={"max-w-none"}
+					/>
+
+					<Image
+						width={150}
+						height={150}
+						src={"/sponsers/carnegie_mellon_university.svg"}
+						alt={"carnegie_mellon_university Icon"}
+						className={"max-w-none"}
+
+					/>
+
+					<Image
+						width={150}
+						height={150}
+						src={"/sponsers/download.png"}
+						alt={"Chinese Icon"}
+						className={"max-w-none"}
+					/>
+					
+					<Image
+						width={150}
+						height={150}
+						src={"/sponsers/expedia.svg"}
+						alt={"expedia Icon"}
+						className={"max-w-none"}
+					/>
+
+					<Image
+						width={150}
+						height={150}
+						src={"/sponsers/firmenich.svg"}
+						alt={"firmenich Icon"}
+						className={"max-w-none"}
+					/>
+				</div>
+			</div>
+
+			<div className={"flex space-x-8 md:space-x-16 overflow-hidden"}>
+				<div className={"flex space-x-8 md:space-x-16 animate-loop-scroll"}>
 					<Image
 						width={150}
 						height={150}
@@ -151,71 +222,6 @@ const SponserSection = () => {
 					<Image
 						width={150}
 						height={150}
-						src={"/sponsers/australian_national_university.svg"}
-						alt={"australian_national_university Icon"}
-						className={"max-w-none"}
-					/>
-
-					<Image
-						width={150}
-						height={150}
-						src={"/sponsers/aws.svg"}
-						alt={"AWS Icon"}
-						className={"max-w-none"}
-					/>
-					
-					<Image
-						width={150}
-						height={150}
-						src={"/sponsers/bayer.svg"}
-						alt={"bayer Icon"}
-						className={"max-w-none"}
-					/>
-
-					<Image
-						width={150}
-						height={150}
-						src={"/sponsers/broad_inst.svg"}
-						alt={"broad_inst Icon"}
-						className={"max-w-none"}
-					/>
-
-					<Image
-						width={150}
-						height={150}
-						src={"/sponsers/carnegie_mellon_university.svg"}
-						alt={"carnegie_mellon_university Icon"}
-						className={"max-w-none"}
-
-					/>
-
-					<Image
-						width={150}
-						height={150}
-						src={"/sponsers/download.png"}
-						alt={"Chinese Icon"}
-						className={"max-w-none"}
-					/>
-					
-					<Image
-						width={150}
-						height={150}
-						src={"/sponsers/expedia.svg"}
-						alt={"expedia Icon"}
-						className={"max-w-none"}
-					/>
-
-					<Image
-						width={150}
-						height={150}
-						src={"/sponsers/firmenich.svg"}
-						alt={"firmenich Icon"}
-						className={"max-w-none"}
-					/>
-
-					<Image
-						width={150}
-						height={150}
 						src={"/sponsers/glaxosmithkline.svg"}
 						alt={"glaxosmithkline Icon"}
 						className={"max-w-none"}
@@ -279,6 +285,8 @@ const SponserSection = () => {
 						className={"max-w-none"}
 					/>
 				</div>
+
+
 			</div>
 		</div>
 	)

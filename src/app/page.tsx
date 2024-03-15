@@ -4,6 +4,7 @@ import LandingSection from "@/components/LandingSection";
 import AboutSection from "@/components/AboutSection";
 import SponserSection from "@/components/SponserSection";
 import ResearchSection from "@/components/ResearchSection";
+import FooterSection from "@/components/FooterSection";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
       <AboutSection />
       <SponserSection />
       <ResearchSection />
-      <h1>Hello</h1>
+      <FooterSection />
     </div>
   );
 }
