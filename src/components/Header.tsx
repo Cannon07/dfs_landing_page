@@ -7,7 +7,7 @@ const Header = () => {
 	const [toggle, setToggle] = useState(false);
 
 	return (
-		<div>
+		<div className={"sticky top-0 z-20 bg-white"}>
 			<div className={"flex justify-between px-8 py-2 items-center"}>
 				<h1 className={"font-serif text-xl cursor-pointer"}>Deep Forest Science</h1>	
 
@@ -29,7 +29,7 @@ const Header = () => {
 			</div>
 
 			{toggle &&
-				<div className={"flex flex-col gap-2 items-center text-sm font-medium md:hidden"}>
+				<div className={"flex flex-col gap-2 p-4 items-center text-sm font-medium md:hidden"}>
 					<h1 className={"cursor-pointer p-2 rounded active:bg-slate-200"}>Science</h1>
 					<h1 className={"cursor-pointer p-2 rounded active:bg-slate-200"}>Research</h1>
 					<h1 className={"cursor-pointer p-2 rounded active:bg-slate-200"}>News</h1>
