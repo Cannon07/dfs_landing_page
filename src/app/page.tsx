@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import LandingSection from "@/components/LandingSection";
 import AboutSection from "@/components/AboutSection";
 import SponserSection from "@/components/SponserSection";
+import ResearchSection from "@/components/ResearchSection";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <LandingSection />
       <AboutSection />
       <SponserSection />
+      <ResearchSection />
       <h1>Hello</h1>
     </div>
   );

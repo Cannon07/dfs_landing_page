@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const SponserSection = () => {
 	return (
-		<div className={"bg-white flex flex-col gap-8"}>
+		<div className={"bg-white flex flex-col gap-8 py-10"}>
 			<div className={"w-full flex justify-center"}>
 				<div className={"flex flex-col gap-4 w-3/4"}>
-					<div className={"flex justify-center text-4xl font-medium"}>
+					<div className={"flex justify-center text-3xl md:text-4xl font-medium"}>
 						<h1>Our Sponsers</h1>
 					</div>
 					<div className={"flex justify-center text-xl font-base text-center"}>

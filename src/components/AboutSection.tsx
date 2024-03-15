@@ -8,7 +8,7 @@ const AboutSection = () => {
 	const [toggle, setToggle] = useState(false);
 
 	return (
-		<div className={"bg-white py-20 flex flex-col gap-8 items-center"}>
+		<div className={"bg-white py-10 flex flex-col gap-8 items-center"}>
 			<div className={"flex flex-col w-3/4 gap-8 md:gap-0 md:flex-row"}>
 				<div className={"flex flex-col w-full md:w-2/4 md:items-center md:justify-center"}>
 					<div className={"w-full md:w-3/4 font-medium text-3xl md:text-4xl"}>
