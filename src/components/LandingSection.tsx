@@ -5,7 +5,7 @@ import { HiArrowLongRight } from "react-icons/hi2";
 const LandingSection = () => {
 	return (
 		<div className={"relative"}>
-			<div className={"z-10 absolute m-auto left-0 right-0 flex justify-center items-center h-screen"}>
+			<div className={"z-10 m-auto left-0 right-0 flex justify-center items-center h-screen"}>
 				<div className={"flex flex-col md:flex-row items-center gap-12 lg:gap-20 xl:gap-40"}>
 					<div className={"flex flex-col gap-4"}>
 						<h1 className={"text-white text-center md:text-left text-5xl lg:text-6xl xl:text-7xl font-serif w-full"}>Revolutionizing</h1>
@@ -71,14 +71,6 @@ const LandingSection = () => {
 						</div>
 					</div>
 				</div>
-			</div>
-			<div className={"min-h-screen relative"}>
-				<Image
-					layout="fill"
-					objectFit="cover"
-					src={"/forest_2.png"}
-					alt={"background image"}
-				/>
 			</div>
 		</div>
 	)

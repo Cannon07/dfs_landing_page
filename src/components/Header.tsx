@@ -8,7 +8,7 @@ const Header = () => {
 
 	return (
 		<div className={"sticky top-0 z-20 bg-white"}>
-			<div className={"flex justify-between px-8 py-2 items-center"}>
+			<div className={"flex justify-between px-4 md:px-8 py-2 items-center"}>
 				<h1 className={"font-serif text-xl cursor-pointer"}>Deep Forest Science</h1>	
 
 				<div className={"flex flex-col gap-2 items-center hidden text-sm font-medium md:block md:flex md:flex-row"}>
