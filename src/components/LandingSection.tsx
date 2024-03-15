@@ -1,6 +1,4 @@
-import Image from "next/image";
 import { IoIosArrowRoundDown } from "react-icons/io";
-import { HiArrowLongRight } from "react-icons/hi2";
 
 const LandingSection = () => {
 	return (
