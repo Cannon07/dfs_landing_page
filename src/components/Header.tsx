@@ -7,7 +7,7 @@ const Header = () => {
 	const [toggle, setToggle] = useState(false);
 
 	return (
-		<div className={"sticky top-0 z-20 bg-white"}>
+		<div className={"sticky top-0 z-20 bg-white drop-shadow-xl"}>
 			<div className={"flex justify-between px-4 md:px-8 py-2 items-center"}>
 				<h1 className={"font-serif text-xl cursor-pointer"}>Deep Forest Science</h1>	
 
