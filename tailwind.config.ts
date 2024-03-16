@@ -13,6 +13,10 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      backgroundColor: {
+        "brand-green": '#51b652',
+        "brand-dark-green": '#2d651a',
+      },
       animation: {
         "loop-scroll": "loop-scroll 50s linear infinite"
       },

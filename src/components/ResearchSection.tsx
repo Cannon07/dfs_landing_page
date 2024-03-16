@@ -3,7 +3,7 @@ import { IoIosArrowRoundForward } from "react-icons/io"
 const ResearchSection = () => {
 	return (
 		<div className={"bg-white flex flex-col md:flex-row"}>
-			<div className={"w-full md:w-2/4 px-12 md:px-16 py-20 bg-lime-500 flex items-center"}>
+			<div className={"w-full md:w-2/4 px-12 md:px-16 py-20 bg-brand-green flex items-center"}>
 				<div className={"flex flex-col gap-4 text-white"}>
 					<div>
 						<h1 className={"text-2xl font-semibold"}>Differentiable Physics : A Position Piece</h1>
@@ -24,7 +24,7 @@ const ResearchSection = () => {
 				</div>
 			</div>
 
-			<div className={"w-full md:w-2/4 px-12 md:px-16 py-20 bg-lime-700"}>
+			<div className={"w-full md:w-2/4 px-12 md:px-16 py-20 bg-brand-dark-green"}>
 				<div className={"flex flex-col gap-4 text-white"}>
 					<div>
 						<h1 className={"text-2xl font-semibold"}>ChemBERTa: Large-Scale Self-Supervised Pretraining for Molecular Property Prediction</h1>
